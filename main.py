@@ -59,8 +59,10 @@ number_1 = int(input("Enter some digits: "))
 number_2 = int(input("Enter some digits: "))
 if number_1 > number_2:
     print(number_2)
+    print(number_1)
 elif number_1 < number_2:
     print(number_1)
+    print(number_2)
 else:
     print("Они равны")
 
