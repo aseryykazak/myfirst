@@ -55,14 +55,33 @@
 # else:
 #     print("Что происходит???")
 
-number_1 = int(input("Enter some digits: "))
-number_2 = int(input("Enter some digits: "))
-if number_1 > number_2:
-    print(number_2)
-    print(number_1)
-elif number_1 < number_2:
-    print(number_1)
-    print(number_2)
-else:
-    print("Они равны")
+# number_1 = int(input("Enter some digits: "))
+# number_2 = int(input("Enter some digits: "))
+# if number_1 > number_2:
+#     print(number_2)
+#     print(number_1)
+# elif number_1 < number_2:
+#     print(number_1)
+#     print(number_2)
+# else:
+#     print("Они равны")
 
+# i = 5
+# while i < 50:
+#     print(i)
+#     i += 2
+
+# acc = 0
+# for i in range(2):
+#     acc += i
+# print(acc)
+
+# start: stop: step
+# print(list(range(10)))
+# print(list(range(0, 10, 1)))
+# print(list(range(50, 150, 5)))
+
+for i in 'hello world':
+    if i == 'o':
+        break
+    print(i*2)
