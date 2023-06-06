@@ -1,16 +1,35 @@
-# This is a sample Python script.
+# my_variable = "Hello world!"
+# print(my_variable)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+"""
+баловство
+"""
+# my_variable = 1.5
+# my_variable = str(my_variable)
+# my_variable_1 = "1.5"
+#
+#
+# print(type(my_variable))
+# print(my_variable)
 
+# my_variable = 4
+# my_variable_2 = 0.5
+# answer = my_variable ** my_variable_2
+#
+# print(answer)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# answer = int(input("Enter some digits: "))
+# input(answer)
 
+number = 2
+number_2 = 3
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+answer_1 = number + number_2
+answer_2 = number - number_2
+answer_3 = number * number_2
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# input(answer_1)
+# input(answer_2)
+# input(answer_3)
+
+print(answer_1, answer_2, answer_3)
