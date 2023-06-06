@@ -21,16 +21,12 @@
 # answer = int(input("Enter some digits: "))
 # input(answer)
 
-number = 2
-number_2 = 3
+number = int(input("Enter some digits: "))
+number_2 = int(input("Enter some digits: "))
 
 answer_1 = number + number_2
 answer_2 = number - number_2
 answer_3 = number * number_2
-
-# input(answer_1)
-# input(answer_2)
-# input(answer_3)
 
 print(answer_1, answer_2, answer_3)
 
