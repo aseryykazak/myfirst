@@ -33,3 +33,4 @@ answer_3 = number * number_2
 # input(answer_3)
 
 print(answer_1, answer_2, answer_3)
+
