@@ -150,11 +150,11 @@
 # x = list(range(0, 10001, 1))
 
 
-list()
-for i in range(0, 10001, 1):
-    i ** 2
-    # print(i)
-    print(list().append([i]))
+list = []
+for i in range(1000):
+    x = i ** 2
+    list.append(x)
+print(list)
 
 
 
