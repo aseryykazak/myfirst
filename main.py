@@ -112,10 +112,49 @@
 
 
 
+# Дано число n. Вывести все четные числа в инвервале
+# x = int(input("Enter some digits: "))
+# if x % 2 == 0:
+#     print(x)
+# else:
+#     print("Не делится")
 
-x = int(input("Enter some digits: "))
-if x % 2 == 0:
-    print(x)
-else:
-    print("Не делится")
+# for i in range(0,n+1,2):
+#     print(i)
+#
+#
+# # Дано число n. Вывести все делители
+# x = int(input("Enter some digits: "))
+# if x>0:
+
+# name = 'Hello world'
+# print(name[::-1])
+
+# print('Hello'.replace('ello', 'i'))
+
+# print('Hello'.replace('ello', 'i'))
+
+# squares = [1, 5]
+# print(type(squares))
+
+# names = ['Romeo', 'Kevin', 'Mike', 'Igor']
+# del names[:2]
+# print(names[1])
+
+
+# \\
+# Дан список чисел от 1 до 1000, используя цикл создайте новый список со значениями возведенными в квадрат
+# \\
+
+
+# x = list(range(0, 10001, 1))
+
+
+list()
+for i in range(0, 10001, 1):
+    i ** 2
+    # print(i)
+    print(list().append([i]))
+
+
 
