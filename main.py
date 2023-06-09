@@ -66,10 +66,12 @@
 # else:
 #     print("Они равны")
 
+
 # i = 5
 # while i < 50:
 #     print(i)
 #     i += 2
+
 
 # acc = 0
 # for i in range(2):
@@ -81,7 +83,39 @@
 # print(list(range(0, 10, 1)))
 # print(list(range(50, 150, 5)))
 
-for i in 'hello world':
-    if i == 'o':
-        break
-    print(i*2)
+# for i in 'hello world':
+#     if i == 'o':
+#         break
+#     print(i*2)
+
+# ДЗ
+# # //A//
+# x = list(input())
+# mx = x[0]
+# print(mx)
+# if number_1 > number_2:
+#     print(number_1)
+#     print(number_2)
+# elif number_1 < number_2:
+#     print(number_1)
+#     print(number_2)
+# else:
+#     print("Они равны")
+
+
+
+# //B//
+# print(list('1 6 2 5 2 9 6 1 5'))
+# if что-то больше 2 раз повторяется
+#     print(это число)
+
+
+
+
+
+x = int(input("Enter some digits: "))
+if x % 2 == 0:
+    print(x)
+else:
+    print("Не делится")
+
