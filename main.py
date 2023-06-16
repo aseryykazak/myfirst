@@ -113,11 +113,11 @@
 
 
 # Дано число n. Вывести все четные числа в инвервале
-# x = int(input("Enter some digits: "))
-# if x % 2 == 0:
-#     print(x)
-# else:
-#     print("Не делится")
+x = int(input("Enter some digits: "))
+if x % 2 == 0:
+    print(x)
+else:
+    print("Не делится")
 
 # for i in range(0,n+1,2):
 #     print(i)
@@ -147,14 +147,16 @@
 # \\
 
 
-# x = list(range(0, 10001, 1))
+# x = list(range(0, 1001, 1))
 
 
-list = []
-for i in range(1000):
+y = []
+for i in range(1, 1001):
     x = i ** 2
-    list.append(x)
-print(list)
+    y.append(x)
+print(y)
+
+
 
 
 
